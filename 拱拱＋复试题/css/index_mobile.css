@@ -1,0 +1,221 @@
+@media screen and (max-width:900px){
+	body{
+		min-height:485px;
+		overflow:hidden;
+
+	}
+	@media screen and (max-height:485px){
+        body{
+        	overflow:visible;
+
+        }
+	}
+	.banner{
+	background-image:url(../image/g_banner_background.png);
+	width:100%;
+	min-width:0px;
+	height:67%px;
+	background-size:cover;
+}
+.all{
+	height:100px;
+     width:1100px;
+     position:relative;
+     text-decoration:none;
+ }
+.all-logo{
+     height:60px;
+     width:60px;
+     background:url(../image/g_logo.png);
+     margin:20px 20px 20px 30px;
+     overflow:hidden;
+     float:left;
+}
+.all-name{
+	width:100px;
+	height:100px;
+	line-height:100px;
+    font-size:33px;
+    color:#fff;
+    font-family:'yueyuan';
+    float:left;
+}
+.all-t{
+	float:right;
+    position:relative;
+    display:inline-block;
+    list-style-type:none;
+    font-size:25px;
+    text-decoration:none;
+    margin:23px 0px;
+}
+.all-t li{
+	float:left;
+}
+.all-t li:hover{
+	color:rgb(251,108,109);
+}
+.all-t-i{
+	position:relative;
+	float:left;
+	height:54px;
+	line-height:54px;
+	margin-right:30px;
+	padding:0 5px;
+	text-decoration:none;
+	color:#fff;
+	vertical-align:middle; 
+}
+.all-t-i-1{
+	position:relative;
+	float:left;
+	height:54px;
+	line-height:54px;
+	margin-right:30px;
+	padding:0 5px;	
+	color:rgb(251,108,109);
+	border-bottom:2px solid rgb(251,108,109);	 
+}
+.content{
+	width:1100px;
+	height:500px;
+	position:relative;
+}
+.show-page{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.left{
+	padding:80px 0 0 60px;
+	display:inline-block;
+	width:500px;
+	height:400px;
+}
+.first{
+	position:relative;
+	font-size:33px;
+	color:white;
+}
+.a{
+	line-height:100px;
+}
+.b{
+	line-height:100px;
+}
+.c{
+	height:30px;
+	width:105px;
+	background-color:#fb6c6d;
+	border-radius:5px;
+	text-align:center;
+	font-size:25px;
+	margin-left:20px;
+	display:inline-block;
+}
+.second{
+	font-size:33px;
+	color:white;
+	line-height:60px;
+}
+.third{
+	width:435px;
+	height:120px;
+	margin:20px 0;
+	
+}
+.d{
+	width:285px;
+	height:100%;
+	line-height:120px;
+	font-size:33px;
+	border-radius:10px;
+	color:white;
+	background: #fb6c6d;
+	float:left; 
+	text-align:center;	
+}
+.d:hover{
+	background-color:#ff5454;
+
+}
+
+.e{
+	width:120px;
+	height:100%;
+	display:inline-block;
+	float:right;	
+}
+.f{
+	font-size:17px;
+	color:white;
+	margin-right:40px;
+}
+.g{
+	font-size:17px;
+	color:white;
+	
+}
+.right{
+	width:315px;
+	height:478px;
+	position:absolute;
+	right:82px;
+	bottom:0;
+	background-image:url(../image/g_device_preview_android.png);
+	background-size:cover;
+	background-position:top center;
+}
+.bottom{
+	width:1040px;
+	height:410px;
+	padding:0 30px;
+
+}
+.h{
+	width:24%;
+	height:100%;
+	float:left;
+}
+.img1{
+	width:150px;
+	height:150px;
+	background:url(../image/one.png);
+	margin:80px auto 0;
+}
+.img2{
+	width:150px;
+	height:150px;
+	background:url(../image/two.png);
+	margin:80px auto 0;
+}
+.img3{
+	width:150px;
+	height:150px;
+	background:url(../image/three.png);
+	margin:80px auto 0;
+}
+
+.img4{
+	width:150px;
+	height:150px;
+	background:url(../image/four.png);
+	margin:80px auto 0;
+}
+p{
+	font-size:18px;
+	margin-top:20px;
+	text-align:center;
+	color:black;
+}
+.footer{
+	width:100%;
+	min-width:1100px;
+	height:70px;
+	line-height:70px;
+	background-color:#efefef;
+	text-align:center;
+	font-size:13px;
+	color:#989898;
+}
+}

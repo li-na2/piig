@@ -1,0 +1,210 @@
+@media screen and (max-width:900px){
+	body{
+		min-height:483px;
+		overflow:hidden;
+		position:relative;
+	}
+	@media screen and (max-height:483px){
+		body{
+			overflow:visible;
+			padding-bottom:50px;
+	    }
+	}
+	.banner{
+	width:100%;
+	min-width:0px;
+	height:67%;
+	background:url(../image/g_banner_background.png);
+}
+
+	.nav{
+		width:100%;
+		min-width:0px;
+		height:20%;
+		position:relative;
+	}
+
+	.image{
+		background:url(../image/g_logo.png);
+		width:60px;
+		height:60px;
+		margin:20px;
+		float:left;
+	}
+
+	.name{
+		width:60px;
+		height:60px;
+		float:left;
+		font-size:28px;
+		font-family:yueyuan;
+		color:white;
+		line-height:60px;
+	}
+
+	.meta-device{
+		display:none;
+		list-style-type: none;
+	}
+	.meta-device li{
+		float:left;
+	}
+	.meta-device li:hover{
+		color:rgb(251,108,109);
+	}
+
+	.meta-device-item-checked{
+		font-family: 'Microsoft Yahei';
+		font-size:28px;
+		color:rgb(251,108,109);
+		line-height:50px;
+		padding:0 5px;
+		border-bottom:2px solid rgb(251,108,109);
+	}	 
+	.meta-device-item{
+		font-family: 'Microsoft Yahei';
+		font-size:28px;
+		color:white;
+		line-height:50px;
+		margin-left:20px;
+	}
+	.content{
+		width:100%;
+		min-width:1100px;
+		height:500px;
+		position:relative;
+	}
+	.left{
+		width:550px;
+		height:100%;
+		padding:80px 0 0 60px;
+		display:inline-block;
+	}
+	.line1{
+		font-size:30px;
+		color:white;
+		font-family:yueyuan;
+	} 
+	.a{
+		font-size:54px;
+		margin-right:20px;
+		border-bottom:2px solid white;
+	}
+	.b{
+		margin-right:20px;
+		line-height:100px;
+	}
+	.c{
+		width:105px;
+		height:30px;
+		background-color:#fb6c6d;
+		border-radius:5px;
+		text-align:center; 
+		font-size:25px;
+		display:inline-block; /*作用*/
+		line-height:30px;
+		
+	}
+	.line2{
+		font-size:33px;
+		color:white;	
+	}
+	.line3{
+		width:435px;
+		height:120px;
+		margin:20px 0;
+	}
+	.d{
+	 	width:285px;
+	 	height:100%;
+	 	line-height:120px;
+	 	font-size:33px;
+	 	border-radius:10px;
+	 	color:white;
+	 	background:#fb6c6d;
+	 	text-align: center;
+	 	float:left;  /* 作用 */
+	 	text-decoration:none;
+	}
+	.d:hover{
+		background-color:#ff5454;
+	}
+	.e{
+		width:120px;
+		height:100%;	
+	 	/* display:inline-block;  */
+		float:right;
+	}
+	.f{
+		font-size:17px;
+		color:white;
+		margin:0 40px 0 auto;
+	}
+	.g{
+		font-size:17px;
+		color:white;
+	}
+	.right{
+		width:315px;
+		height:475px;
+		/* float:right;
+		display:inline-block; */
+		position:absolute;
+		right:82px;
+		bottom:0; 
+		background:url(../image/g_device_preview_android.png);
+		background-size:cover;
+		background-position:top center;
+	}
+	.bottom{
+		width:100%;
+		min-width:1100px;
+		height:410px;
+		padding:0 30px;
+	}
+	.h{
+		width:25%;
+		height:100%;
+		float:left;
+	}
+	.img1{
+		width:150px;
+		height:150px;
+		background:url(../image/one.png);
+		margin:80px auto 0;
+	}
+	.img2{
+		width:150px;
+		height:150px;
+		background:url(../image/two.png);
+		margin:80px auto 0;
+	}
+	.img3{
+		width:150px;
+		height:150px;
+		background:url(../image/three.png);
+		margin:80px auto 0;
+	}
+	.img4{
+		width:150px;
+		height:150px;
+		background:url(../image/one.png);
+		margin:80px auto 0;
+	}
+	p{
+		font-size:18px;
+		margin-top:20px;
+		text-align:center;
+		color:black;
+	}
+	.footer{
+		width:100%;
+		min-width:1100px;
+		height:70px;
+		line-height:70px;
+		background-color:#efefef;
+		font-size:13px;
+		color:#989898;
+		text-align:center;
+	}
+}

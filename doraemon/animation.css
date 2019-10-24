@@ -1,0 +1,106 @@
+ .dorayaki{
+	animation: myfirst 3s infinite linear;
+	-moz-animation: myfirst 3s infinite linear;
+	-webkit-animation: myfirst 3s infinite linear;
+	-o-animation: myfirst 3s infinite linear;
+	-ms-animation:myfirst 3s infinite linear;
+}
+@keyframes myfirst{
+	0%{top:0px;}
+	100%{top:200px;}
+}
+.lefthand{
+	animation: mysecond 1s infinite linear;
+	animation: mysecond 1s infinite linear;
+	-moz-animation: mysecond 1s infinite linear;
+	-webkit-animation: mysecond 1s infinite linear;
+	-o-animation: mysecond 1s infinite linear;
+	-ms-animation:mysecond 1s infinite linear;
+}
+@keyframes mysecond{
+	0%{transform:rotate(0deg);}
+	50%{transform:rotate(45deg);}
+	100%{transform:rotate(0deg);}
+} 
+.righthand{
+	animation: mysecond 1s infinite linear;
+	animation: mysecond 1s infinite linear;
+	-moz-animation: mysecond 1s infinite linear;
+	-webkit-animation: mysecond 1s infinite linear;
+	-o-animation: mysecond 1s infinite linear;
+	-ms-animation:mysecond 1s infinite linear;
+}
+@keyframes mysecond{
+	0%{transform:rotate(0deg);}
+	50%{transform:rotate(45deg);}
+	100%{transform:rotate(0deg);}
+} 
+.leftfoot{
+	animation: mythird 1s infinite linear;
+	-moz-animation: mythird 1s infinite linear;
+	-webkit-animation: mythird 1s infinite linear;
+	-o-animation: mythird 1s infinite linear;
+	-ms-animation:mythird 1s infinite linear;
+}
+@keyframes mythird{
+	0%{transform:rotate(0deg);}
+	50%{transform:rotate(45deg);}
+	100%{transform:rotate(0deg);}
+}
+.rightfoot{
+	animation: mythird 1s infinite linear;
+	-moz-animation: mythird 1s infinite linear;
+	-webkit-animation: mythird 1s infinite linear;
+	-o-animation: mythird 1s infinite linear;
+	-ms-animation:mythird 1s infinite linear;
+}
+@keyframes mythird{
+	0%{transform:rotate(0deg);}
+	50%{transform:rotate(45deg);}
+	100%{transform:rotate(0deg);}
+}
+.mini-lefteye{
+	animation: myforth 1s infinite linear;
+	-moz-animation: myforth 1s infinite linear;
+	-webkit-animation: myforth 1s infinite ;
+	-o-animation: myforth 1s infinite linear;
+	-ms-animation:myforth 1s infinite linear;
+}
+@keyframes myforth{
+	0%{
+	width:20px;
+	height:30px;
+	border-radius:50%/50%;
+	background:#000;
+	}
+	25%{
+	width:20px;
+	height:10px;
+	border-radius:10px 10px 0 0;
+	background:#fff;
+	border:2px solid #000;
+	border-bottom:none;
+	}
+	50%{
+	width:20px;
+	height:10px;
+	border-radius:10px 10px 0 0;
+	background:#fff;
+	border:2px solid #000;
+	border-bottom:none;
+	}
+	75%{
+	width:20px;
+	height:10px;
+	border-radius:10px 10px 0 0;
+	background:#fff;
+	border:2px solid #000;
+	border-bottom:none;
+	}
+	100%{
+	width:20px;
+	height:10px;
+	border-radius:10px 10px 0 0;
+	background:#fff;
+	border:2px solid #000;
+	border-bottom:none;}
